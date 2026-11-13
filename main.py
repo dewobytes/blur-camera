@@ -59,7 +59,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
     while True:
         ret, frame = cap.read()
         if not ret:
-            print("Gagal membuka webcam!")
+            print("Ada yang salah pas buka webcam!")
             break
 
         frame = cv2.flip(frame, 1)
