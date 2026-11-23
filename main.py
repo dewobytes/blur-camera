@@ -81,7 +81,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
             for hand_lm in latest_result.hand_landmarks:
                 if is_peace_sign(hand_lm):
                     peace_detected = True
-                    break
+                    break;
 
         if peace_detected:
             frame = cv2.GaussianBlur(frame, (35, 35), 10)
