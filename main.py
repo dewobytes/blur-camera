@@ -45,7 +45,7 @@ native_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 print(f"Resolusi native webcam: {native_width}x{native_height}")
 print(f"R: {DISPLAY_WIDTH}x{DISPLAY_HEIGHT}")
 
-WINDOW_NAME = 'Peace camera Sign v4'
+WINDOW_NAME = 'Peace Sign v5'
 cv2.namedWindow(WINDOW_NAME, cv2.WINDOW_AUTOSIZE)
 
 print("=" * 50)
